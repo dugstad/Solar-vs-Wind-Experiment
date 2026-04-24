@@ -11,7 +11,8 @@ rm(list = ls())
 gc()
 
 # ------------------ LOAD & PREPARE RESPONDENT DATA ----------------------
-setwd("D:/EnergyWise/Replication package")
+#set workign directory where all datasets are stored
+#setwd(")
 
 # Load respondent data
 df <- read_csv("vind_complete.csv") %>%
