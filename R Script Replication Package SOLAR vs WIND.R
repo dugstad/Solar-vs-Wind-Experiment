@@ -2259,119 +2259,119 @@ delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_dist1*100-mu_view2*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_dist1*100-mu_view2*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 1 - No visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_dist1*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_dist1*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_dist1*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_dist1*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 2 - Visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_dist1*100-mu_view2*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_dist1*100-mu_view2*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_dist1*100-mu_view2*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_dist1*100-mu_view2*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 2 - No visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_dist1*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_dist1*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_dist1*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_dist1*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 
 ### Policy 3 - Visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_wild10*100 - mu_view2*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_wild10*100 - mu_view2*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_wild10*100 - mu_view2*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_wild10*100 - mu_view2*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 
 ### Policy 3 - No visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_wild10*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_wild10*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_wild10*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_wild10*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 4 - Visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_wild10*100 - mu_view2*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_wild10*100 - mu_view2*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_wild10*100 - mu_view2*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_wild10*100 - mu_view2*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 4 - No visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_wild10*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_wild10*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_wild10*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_wild10*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 5 - Visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100 - mu_view2*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100 - mu_view2*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100 - mu_view2*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100 - mu_view2*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 5 - No visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 6 - Visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_view2*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_view2*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_view2*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_view2*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 6 - No visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 
@@ -2383,61 +2383,61 @@ delmeth1
 ### Policy 5 - 19 thousand households electricity consumption - Visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100 - mu_view2*100)*4100)/300000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100 - mu_view2*100)*4100)/300000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100 - mu_view2*100)*4100)/300000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100 - mu_view2*100)*4100)/300000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 5 - Policy 5 - 19 thousand households electricity consumption - No visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100)*4100)/300000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100)*4100)/300000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100)*4100)/300000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100)*4100)/300000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 5 - 38 thousand households electricity consumption - Visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100 - mu_view2*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100 - mu_view2*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100 - mu_view2*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100 - mu_view2*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 5 - 38 thousand households electricity consumption - No visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 5 - 57 thousand households electricity consumption - Visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el57*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100 - mu_view2*100)*4100)/900000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el57*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100 - mu_view2*100)*4100)/900000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el57*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100 - mu_view2*100)*4100)/900000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el57*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100 - mu_view2*100)*4100)/900000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 5 - 57 thousand households electricity consumption - No visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el57*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100)*4100)/900000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el57*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100)*4100)/900000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el57*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100)*4100)/900000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el57*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100)*4100)/900000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ##############
@@ -2456,115 +2456,115 @@ delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_dist1*100-mu_view2*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_dist1*100-mu_view2*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 1 - No visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_dist1*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_dist1*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_dist1*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_dist1*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 2 - Visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_dist1*100-mu_view2*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_dist1*100-mu_view2*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_dist1*100-mu_view2*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_dist1*100-mu_view2*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 2 - No visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_dist1*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_dist1*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_dist1*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_dist1*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 
 ### Policy 3 - Visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_wild10*100 - mu_view2*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_wild10*100 - mu_view2*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_wild10*100 - mu_view2*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_wild10*100 - mu_view2*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 
 ### Policy 3 - No visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_wild10*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_wild10*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_wild10*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_wild10*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 4 - Visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_wild10*100 - mu_view2*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_wild10*100 - mu_view2*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_wild10*100 - mu_view2*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_wild10*100 - mu_view2*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 4 - No visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_wild10*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_wild10*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_wild10*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants6*100 - mu_wild10*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 5 - Visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100 - mu_view2*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100 - mu_view2*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100 - mu_view2*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100 - mu_view2*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 5 - No visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_plants3*100 - mu_wild20*100 - mu_dist3*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 6 - Visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_view2*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_view2*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
-delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_view2*100)*4100)/600000000))", vcov. = model_sun$robvarcov)
+delmeth1 <- deltaMethod(model_sun$estimate[ model_sun$estimate != 0 ], "((((mu_alt2*100-mu_el38*100 - mu_view2*100)*4100)/600000000))/13.88", vcov. = model_sun$robvarcov)
 delmeth1
 
 ### Policy 6 - No visibility ###
 
 #WIND:
-delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100)*4100)/600000000))", vcov. = model_wind$robvarcov)
+delmeth1 <- deltaMethod(model_wind$estimate[ model_wind$estimate != 0 ], "((((mu_alt2*100-mu_el38*100)*4100)/600000000))/13.88", vcov. = model_wind$robvarcov)
 delmeth1
 
 #SOL
